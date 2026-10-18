@@ -489,3 +489,39 @@ st.caption(
     "Uses synthetic sales data. Validate models on real data before "
     "using predictions or anomaly flags for business decisions."
 )
+
+
+# -------------------- PROFESSIONAL FOOTER --------------------
+st.divider()
+
+st.markdown(
+    """
+    <div style="
+        text-align: center;
+        padding: 22px 12px;
+        margin-top: 10px;
+        background: linear-gradient(135deg, #10182b, #17233a);
+        border: 1px solid #263753;
+        border-radius: 14px;
+    ">
+        <h3 style="color: #60a5fa; margin-bottom: 6px;">
+            📊 SalesIQ
+        </h3>
+        <p style="color: #cbd5e1; margin-bottom: 10px;">
+            AI-Powered Sales Intelligence Platform
+        </p>
+        <p style="color: #94a3b8; font-size: 13px;">
+            Built with Python · Pandas · Scikit-learn · Streamlit · Plotly
+        </p>
+        <hr style="border-color: #263753;">
+        <p style="color: #94a3b8; font-size: 12px; margin-bottom: 6px;">
+            Educational Portfolio Project | © 2026
+        </p>
+        <p style="color: #94a3b8; font-size: 12px; margin-bottom: 0;">
+            Uses synthetic sales data. Predictions and anomaly flags
+            should be validated before real-world business use.
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
