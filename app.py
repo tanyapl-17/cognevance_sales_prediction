@@ -515,7 +515,9 @@ st.markdown(
         </p>
         <hr style="border-color: #263753;">
         <p style="color: #94a3b8; font-size: 12px; margin-bottom: 6px;">
-            Educational Portfolio Project | © 2026
+    Developed by <strong style="color: #60a5fa;">Tanya Patel</strong>
+    | © 2026 Tanya Patel
+    </p>
         </p>
         <p style="color: #94a3b8; font-size: 12px; margin-bottom: 0;">
             Uses synthetic sales data. Predictions and anomaly flags
