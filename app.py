@@ -490,46 +490,95 @@ st.markdown(
     """
     <div style="
         text-align: center;
-        padding: 24px 14px;
-        margin-top: 10px;
+        padding: 28px 16px;
+        margin-top: 12px;
         background: linear-gradient(135deg, #10182b, #17233a);
         border: 1px solid #263753;
-        border-radius: 14px;
+        border-radius: 16px;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
     ">
-        <h3 style="color: #60a5fa; margin-bottom: 6px;">
-            📊 SalesIQ
-        </h3>
 
-        <p style="color: #cbd5e1; margin-bottom: 12px;">
+        <h2 style="
+            color: #60a5fa;
+            margin-bottom: 8px;
+            font-size: 27px;
+        ">
+            📊 SalesIQ
+        </h2>
+
+        <p style="
+            color: #cbd5e1;
+            font-size: 15px;
+            margin-bottom: 18px;
+        ">
             AI-Powered Sales Intelligence Platform
         </p>
 
-        <p style="color: #f8fafc; font-size: 15px;">
-            Developed by <strong>Tanya Patel</strong>
+        <p style="
+            color: #f8fafc;
+            font-size: 16px;
+            margin-bottom: 8px;
+        ">
+            Developed with ❤️ by
+            <strong style="color: #60a5fa;">Tanya Patel</strong>
         </p>
 
-        <p style="color: #60a5fa; font-size: 14px;">
+        <p style="
+            color: #60a5fa;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        ">
             Aspiring AI/ML Engineer | Python Developer
         </p>
 
-        <p style="color: #94a3b8; font-size: 13px;">
-            Passionate about AI, Machine Learning & Python Development
+        <p style="
+            color: #cbd5e1;
+            font-size: 13px;
+            line-height: 1.7;
+            margin-bottom: 16px;
+        ">
+            Passionate about Artificial Intelligence,
+            Machine Learning, and Python Development.
+            <br>
+            Learning, Building, and Growing Every Day.
         </p>
 
-        <p style="color: #94a3b8; font-size: 13px;">
-            Built with Python · Pandas · Scikit-learn · Streamlit · Plotly
+        <p style="
+            color: #94a3b8;
+            font-size: 12px;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        ">
+            Built with Python · Pandas · NumPy ·
+            Scikit-learn · Streamlit · Plotly
         </p>
 
-        <hr style="border-color: #263753;">
+        <hr style="
+            border: none;
+            border-top: 1px solid #263753;
+            margin: 16px 0;
+        ">
 
-        <p style="color: #94a3b8; font-size: 12px;">
+        <p style="
+            color: #94a3b8;
+            font-size: 12px;
+            margin-bottom: 10px;
+        ">
             © 2026 Tanya Patel | Educational Portfolio Project
         </p>
 
-        <p style="color: #94a3b8; font-size: 12px; margin-bottom: 0;">
-            Uses synthetic sales data. Validate models before
-            real-world business use.
+        <p style="
+            color: #94a3b8;
+            font-size: 11px;
+            line-height: 1.6;
+            margin-bottom: 0;
+        ">
+            This project uses synthetic sales data.
+            Predictions and anomaly flags should be validated
+            before real-world business use.
         </p>
+
     </div>
     """,
     unsafe_allow_html=True
