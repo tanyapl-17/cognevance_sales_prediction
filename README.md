@@ -2,6 +2,12 @@
 
 SalesIQ is a machine learning portfolio project that analyzes sales performance, estimates revenue, detects unusual sales records, and groups sales transactions into meaningful profiles.
 
+
+## 🌐 Live Demo
+
+[Launch SalesIQ Dashboard](https://cognevancesalesprediction-hfds3qxm3sefsbta77ugqs.streamlit.app/)
+
+
 ## ✨ Features
 
 - 📊 Interactive sales analytics dashboard
