@@ -492,10 +492,7 @@ st.markdown(
         <p>AI-Powered Sales Intelligence Platform</p>
         <p><strong>Developed by Tanya Patel</strong></p>
         <p><em>Aspiring AI/ML Engineer | Python Developer</em></p>
-        <p>
-            Passionate about Artificial Intelligence,
-            Machine Learning and Python Development.
-        </p>
+        
         <p>
             Python · Pandas · NumPy · Scikit-learn · Streamlit · Plotly
         </p>
