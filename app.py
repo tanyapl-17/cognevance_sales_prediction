@@ -482,25 +482,26 @@ st.download_button(
 )
 
 
-# -------------------- PROFESSIONAL FOOTER --------------------
+# -------------------- COMPACT PROFESSIONAL FOOTER --------------------
 st.divider()
 
 st.markdown(
     """
-    <div style="text-align: center;">
-        <h2>📊 SalesIQ</h2>
-        <p>AI-Powered Sales Intelligence Platform</p>
-        <p><strong>Developed by Tanya Patel</strong></p>
-        <p><em>Aspiring AI/ML Engineer | Python Developer</em></p>
-        
-        <p>
-            Python · Pandas · NumPy · Scikit-learn · Streamlit · Plotly
-        </p>
-        <hr>
-        <p>© 2026 Tanya Patel | Educational Portfolio Project</p>
-        <p>
-            Uses synthetic sales data. Validate models before real-world use.
-        </p>
+    <div style="
+        text-align: center;
+        padding: 12px 8px;
+        color: #cbd5e1;
+        font-size: 13px;
+        line-height: 1.8;
+    ">
+        <strong style="color: #60a5fa;">SalesIQ</strong>
+        &nbsp;·&nbsp; © 2026 Tanya Patel
+        <br>
+        Developed by <strong>Tanya Patel</strong>
+        <br>
+        <span style="color: #94a3b8;">
+            Aspiring AI/ML Engineer | Python Developer
+        </span>
     </div>
     """,
     unsafe_allow_html=True,
