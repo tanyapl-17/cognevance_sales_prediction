@@ -482,14 +482,6 @@ st.download_button(
 )
 
 
-# -------------------- FOOTER --------------------
-st.divider()
-st.caption(
-    "SalesIQ | Educational portfolio project | "
-    "Uses synthetic sales data. Validate models on real data before "
-    "using predictions or anomaly flags for business decisions."
-)
-
 
 # -------------------- PROFESSIONAL FOOTER --------------------
 st.divider()
@@ -498,7 +490,7 @@ st.markdown(
     """
     <div style="
         text-align: center;
-        padding: 22px 12px;
+        padding: 24px 14px;
         margin-top: 10px;
         background: linear-gradient(135deg, #10182b, #17233a);
         border: 1px solid #263753;
@@ -507,21 +499,36 @@ st.markdown(
         <h3 style="color: #60a5fa; margin-bottom: 6px;">
             📊 SalesIQ
         </h3>
-        <p style="color: #cbd5e1; margin-bottom: 10px;">
+
+        <p style="color: #cbd5e1; margin-bottom: 12px;">
             AI-Powered Sales Intelligence Platform
         </p>
+
+        <p style="color: #f8fafc; font-size: 15px;">
+            Developed by <strong>Tanya Patel</strong>
+        </p>
+
+        <p style="color: #60a5fa; font-size: 14px;">
+            Aspiring AI/ML Engineer | Python Developer
+        </p>
+
+        <p style="color: #94a3b8; font-size: 13px;">
+            Passionate about AI, Machine Learning & Python Development
+        </p>
+
         <p style="color: #94a3b8; font-size: 13px;">
             Built with Python · Pandas · Scikit-learn · Streamlit · Plotly
         </p>
+
         <hr style="border-color: #263753;">
-        <p style="color: #94a3b8; font-size: 12px; margin-bottom: 6px;">
-    Developed by <strong style="color: #60a5fa;">Tanya Patel</strong>
-    | © 2026 Tanya Patel
-    </p>
+
+        <p style="color: #94a3b8; font-size: 12px;">
+            © 2026 Tanya Patel | Educational Portfolio Project
         </p>
+
         <p style="color: #94a3b8; font-size: 12px; margin-bottom: 0;">
-            Uses synthetic sales data. Predictions and anomaly flags
-            should be validated before real-world business use.
+            Uses synthetic sales data. Validate models before
+            real-world business use.
         </p>
     </div>
     """,
