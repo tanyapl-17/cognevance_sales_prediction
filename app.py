@@ -487,52 +487,24 @@ st.divider()
 
 st.markdown(
     """
-    <div style="
-        text-align: center;
-        padding: 25px 15px;
-        background: linear-gradient(135deg, #10182b, #17233a);
-        border: 1px solid #263753;
-        border-radius: 16px;
-        margin-top: 10px;
-    ">
-        <h2 style="color: #60a5fa; margin-bottom: 8px;">
-            📊 SalesIQ
-        </h2>
-
-        <p style="color: #cbd5e1; font-size: 15px;">
-            AI-Powered Sales Intelligence Platform
+    <div style="text-align: center;">
+        <h2>📊 SalesIQ</h2>
+        <p>AI-Powered Sales Intelligence Platform</p>
+        <p><strong>Developed by Tanya Patel</strong></p>
+        <p><em>Aspiring AI/ML Engineer | Python Developer</em></p>
+        <p>
+            Passionate about Artificial Intelligence,
+            Machine Learning and Python Development.
         </p>
-
-        <p style="color: #f8fafc; font-size: 16px;">
-            Developed by <strong>Tanya Patel</strong>
-        </p>
-
-        <p style="color: #60a5fa; font-size: 15px;">
-            <strong>Aspiring AI/ML Engineer | Python Developer</strong>
-        </p>
-
-        <p style="color: #cbd5e1; font-size: 13px;">
-            Passionate about Artificial Intelligence, Machine Learning
-            and Python Development.
-        </p>
-
-        <p style="color: #94a3b8; font-size: 12px;">
+        <p>
             Python · Pandas · NumPy · Scikit-learn · Streamlit · Plotly
         </p>
-
-        <hr style="border-color: #263753;">
-
-        <p style="color: #94a3b8; font-size: 12px;">
-            © 2026 Tanya Patel | Educational Portfolio Project
-        </p>
-
-        <p style="color: #94a3b8; font-size: 12px; margin-bottom: 0;">
+        <hr>
+        <p>© 2026 Tanya Patel | Educational Portfolio Project</p>
+        <p>
             Uses synthetic sales data. Validate models before real-world use.
         </p>
     </div>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
 )
-
-
-
